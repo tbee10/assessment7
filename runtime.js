@@ -63,8 +63,11 @@ console.log("append", resultsAppend.preciseWords);
 // array? 
 // For the extra large array timing: insert function takes 1.3422601 S. For the append function it takes 5.1374 ms.
 // largeArray: insert = 11.8547 ms. append = 727.7 us.
-// mediumArray: insert = 226.6 ps. append = 175.1 us
+// mediumArray: insert = 226.6 us. append = 175.1 us
 // smallArray: insert = 61.2 us. append = 119.9 us.
 // tinyArray: insert = 72 us. append = 191.1 us.
 
-// 
+// Paragraph
+// For the extraLargeArry, largeArray and the mediumArray the append function is more efficiant. 
+// For the smallArray and tinyArray the insert function seems to be more efficient.
+// As the arrays get larger the append fucntions is much more efficient than the insert function. .push is more efficient than .unshift
